@@ -11,7 +11,7 @@ We will practice using JavaScript to manipulate the DOM of a webpage.
 6. Run the code and you should see the `h1` is now displayed on the page.
 
 How the web page looks after Practice 1:
-![image](assets/image_2.png)
+![image](.assets/image_2.png)
 
 ## Practice 2
 1. All code for this problem will be completed in the `colorizeLoopNameHeaders()` function in `script.js`.
@@ -22,7 +22,7 @@ How the web page looks after Practice 1:
 5. Run the code and you should see the `for`, `while`, and `do/while` text colored blue in the article titles.
 
 How the web page looks after Practice 2:
-![image](assets/image_3.png)
+![image](.assets/image_3.png)
 
 ## Practice 3
 1. All code for this problem will be completed in the `addFlexLayout()` function in `script.js`.
@@ -43,7 +43,7 @@ How the web page looks after Practice 2:
 8. Run the code, you should see that the articles are no longer in one column but instead in two rows.
 
 How the web page looks after Practice 3:
-![image](assets/image_4.png)
+![image](.assets/image_4.png)
 
 ## Practice 4
 1. All code for this problem will be completed in the `styleArticles()` function in `script.js`.
@@ -58,7 +58,7 @@ How the web page looks after Practice 3:
 5. Run the code, you should see rounded borders, shadows, and background color on the article titles.
    
 How the web page looks after Practice 4:
-![image](assets/image_5.png)
+![image](.assets/image_5.png)
 
 ## References
 * [Arrays](https://www.w3schools.com/js/js_arrays.asp)

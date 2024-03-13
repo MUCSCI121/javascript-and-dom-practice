@@ -1,8 +1,93 @@
+<!--
+DO NOT MODIFY ANY OF THE CODE IN THIS FILE
+-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body></body>
+
+<head>
+  <title>Lecture 16 Practice</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="body">
+
+  <div>
+    <article>
+      <h2><span class="codeFont">for</span> Loop</h2>
+      <p>Loops through a block of code a number of times.</p>
+      <pre>
+      for(let i = 0; i < 5; i++) {
+        // Do something
+      }
+    </pre>
+    </article>
+    <article>
+      <h2><span class="codeFont">while</span> Loop</h2>
+      <p>Loops through a block of code as long as a specified condition is true.</p>
+      <pre>
+      while(hour < timeToWakeUp) {
+        // Do something
+      }
+    </pre>
+    </article>
+    <article>
+      <h2><span class="codeFont">do/while</span> Loop</h2>
+      <p>This loop will execute the code block once, before checking if the condition is true, then it will repeat the
+        loop as long as the condition is true.</p>
+      <pre>
+      do {
+        // Do something
+      } while(hour < timeToWakeUp);
+    </pre>
+    </article>
+  </div>
+  <div>
+    <article>
+      <h2><span class="codeFont">if/else if/else</span> Conditional</h2>
+      <p>Specify blocks of code to execute based on whether the condition is true.</p>
+      <pre>
+        if (day === "Saturday"){
+        // do something for Saturday
+        }
+        else if (day === "Sunday"){
+        // do something Sunday
+        }
+        else {
+        // do something for all other days of the week
+        }
+      </pre>
+    </article>
+    <article>
+      <h2><span class="codeFont">switch</span> Conditional</h2>
+      <p>Used to perform different actions based on different conditions.</p>
+      <pre>
+        switch(feeling){
+          case "happy":
+            // do something because you are happy
+          break;
+
+          case "sad":
+            // do something because you are sad
+          break;
+
+          default:
+           // do something for all other cases
+          break;
+        }
+      </pre>
+    </article>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    /**
+     DO NOT MODIFY ANY OF THE CODE IN THIS FILE
+     */
+    arrayPractice();
+    addH1HeadingElement();
+    colorizeLoopNameHeaders();
+    addFlexLayout();
+    styleArticles();
+  </script>
+</body>
+
 </html>

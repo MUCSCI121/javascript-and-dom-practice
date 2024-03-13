@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /*
+    Make the heading text for the page all uppercase, centered,
+    and give it a shadow
+  */
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px lightgray;
+  }
+  
+  .codeFont {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+  }
+  
+  .codeColor {
+    color: blue;
+  }
+  
+  /*
+    Parent container set to flex layout
+    with the direction set to row to keep everything on a single row
+  */
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /*
+    Each item of the container is set to grow equally
+    as well as start off with the same minimum size of 20em
+    Added margin and padding so there is spacing between elements 
+    and borders
+  */
+  .flexItem {
+    flex-grow: 1;
+    flex-basis: 20em;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  
+  /*
+    Create a border that has rounded edges
+  */
+  .roundedBorder {
+    border: 1px solid grey;
+    border-radius: 15px;
+  }
+  
+  /*
+    Update the background color and font color of the article title
+    Also set the border to be rounded and add padding to move the 
+    text away from the borders
+  */
+  .articleTitle {
+    background-color: #b995cc;
+    color: white;
+    padding: 0.25em;
+    border-radius: 15px;
+  }
+  
+  /*
+    Add a shadow around the article box that appears like a light is
+    shining down from the upper left of the screen
+  */
+  .articleShadow {
+    box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.5);
+  }
