@@ -1,6 +1,8 @@
 # DOM and JavaScript Practice
 We will practice using JavaScript to manipulate the DOM of a webpage.
 
+**Note** If your web page continues to refresh itself then it is probably stuck in a forever loop :(  Just close the tab and relaunch your page with the Go Live button.  If you aren't sure how to do that then watch this lecture's recording...I had to do that same process multiple times.
+
 ## Practice 1
 1. All code for this problem will be completed in the `addH1HeadingElement()` function in `script.js`.
 2. Utilizing the `document` object, create a new `h1` element by using the `createElement()` function and assign it to a variable.
@@ -35,9 +37,9 @@ How the web page looks after Practice 2:
    3. That is all that will be done inside the `while` loop
 5. Utilizing the `document` object, get all elements with the tag `article` and assign the array of elements to a variable.
 6. Set your index variable used in the `while` loop above to zero.
-7. Create a `do/while` loop, this loop will iterate over the articles array.
+7. Create a `while` loop, this loop will iterate over the articles array.
    1. For the condition of the while loop, have it make sure that the index variable is less than the length of the articles array created in step 5.
-   2. Inside the `do/while` loop, use the `classList` property and it's `add()` function to add the CSS class name `"flexItem"` to each of the `article` elements in the array.  
+   2. Inside the `while` loop, use the `classList` property and it's `add()` function to add the CSS class name `"flexItem"` to each of the `article` elements in the array.  
     *Example:* `myArray[myIndex].classList.add("CssClass");`
    3. Increment the index variable by one.
 8. Run the code, you should see that the articles are no longer in one column but instead in two rows.
